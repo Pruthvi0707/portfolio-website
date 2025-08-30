@@ -1,5 +1,5 @@
 import React from "react";
-import { SiGithub, SiX, SiThreads, SiInstagram, SiLinkedin, SiFacebook, SiYoutube } from "react-icons/si";
+import { SiGithub, SiX, SiThreads, SiInstagram, SiLinkedin } from "react-icons/si";
 
 const Footer = () => {
   // Smooth scroll function
@@ -39,9 +39,9 @@ const Footer = () => {
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
             { icon: <SiGithub />, link: "https://github.com/Pruthvi0707" },
-            { icon: <SiX />, link: "#" },
-            { icon: <SiThreads />, link: "#" },
-            { icon: <SiInstagram />, link: "#" },
+            { icon: <SiX />, link: "https://x.com/Pruthviraj1274?t=3GGAyQ4OFu8gquzMRcaREQ&s=08 " },
+            { icon: <SiThreads />, link: "https://www.threads.com/@pruthvi.lokare" },
+            { icon: <SiInstagram />, link: "https://www.instagram.com/pruthvi.lokare?igsh=eTZnNGY4NHF3ODk5" },
             { icon: <SiLinkedin />, link: "https://www.linkedin.com/in/pruthviraj-lokare-9837b8248" },
           ].map((item, index) => (
             <a

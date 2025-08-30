@@ -33,15 +33,10 @@ import dmbLogo from "./assets/education_logo/dmb.jpg";
 import shivrajLogo from "./assets/education_logo/Shivraj.png";
 
 // Project Section Logo's
-import githubdetLogo from "./assets/work_logo/github_det.png";
-import csprepLogo from "./assets/work_logo/cs_prep.png";
-import movierecLogo from "./assets/work_logo/movie_rec.png";
-import taskremLogo from "./assets/work_logo/task_rem.png";
-import npmLogo from "./assets/work_logo/npm.png";
-import webverLogo from "./assets/work_logo/web_dig.png";
-import cmLogo from "./assets/work_logo/cm.png";
-import imagesearchLogo from "./assets/work_logo/image_search.png";
-import removebgLogo from "./assets/work_logo/remove_bg.png";
+import ebookLogo from "./assets/work_logo/ebookapp.png";
+import adapLogo from "./assets/work_logo/adap.png";
+import movieLogo from "./assets/work_logo/bookmymovie.png";
+import gmsLogo from "./assets/work_logo/gms.png";
 
 export const SkillsInfo = [
   {
@@ -149,7 +144,7 @@ export const projects = [
     title: "E-Book Web Application",
     description:
       "We made a website where people can buy and sell used books. I used HTML, CSS, Bootstrap 5, Java Servlets, JSP, and MySQL. The site works well on mobile and has a safe payment system. Admins can manage the users and books easily.",
-    image: githubdetLogo,
+    image: ebookLogo,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "Java Servlet", "MySQL", "JSP"],
   },
   {
@@ -157,7 +152,7 @@ export const projects = [
     title: "Audiology Diagnostic Assessment Portal",
     description:
       " This project is made to help doctors check hearing problems in kids aged 0–6 years. I used HTML, CSS, JavaScript, Python, and MySQL. It helps manage patient details, set appointment times, and create reports. It’s simple to use for both doctors and parents.",
-    image: csprepLogo,
+    image: adapLogo,
     tags: ["Python", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
   },
   {
@@ -165,7 +160,7 @@ export const projects = [
     title: "Book My movie",
     description:
       "We built a movie ticket booking website using HTML, CSS, JavaScript, PHP, and MySQL. People can check movie timings and book tickets online. It also has an admin panel to manage movies and bookings.",
-    image: movierecLogo,
+    image: movieLogo,
     tags: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
   },
   {
@@ -173,7 +168,7 @@ export const projects = [
     title: "Gym Management System",
     description:
       " The Gym Management System was developed using C#.NET and SQL Server to manage member information, track attendance, handle payments, schedule classes, and monitor fitness progress. Enabled efficient gym operations, reducing manual workload with an organized and user-friendly interface for staff and members.",
-    image: npmLogo,
+    image: gmsLogo,
     tags: ["C#", "Microsoft SQL Server"],
   },
 ];
