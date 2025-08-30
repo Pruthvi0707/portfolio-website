@@ -10,6 +10,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    // Extract values from the form
     const formData = new FormData(form.current);
 
     const templateParams = {
@@ -21,10 +22,10 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_nc8k9mz",       // Your EmailJS Service ID
-        "template_vhh8v56",      // Your EmailJS Template ID
+        "service_nc8k9mz",   // Your EmailJS Service ID
+        "template_vhh8v56",  // Your EmailJS Template ID
         templateParams,
-        "9O-xnzFgrELt41NTx"      // Your EmailJS Public Key
+        "9O-xnzFgrELt41NTx"  // Your EmailJS Public Key
       )
       .then(
         () => {
